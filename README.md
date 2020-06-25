@@ -17,4 +17,4 @@ undo (reverts to the previous state of the pen/board, when used after a loop the
 ```
 
 The final change was the addition of the ASCII image generator and accompanying time lapse video. This was accomplished with OpenCV and since this does not come pre installed on most environments, I have commented out the code that pertains to it. They exist as just functions which can be called. If OpenCV is installed, they will be easily runnable. <br/> 
-That said, since it is somewhat a hassle to install OpenCV, I have included a video of these two features working as well as a sample image and video generated.
+That said, since it is somewhat a hassle to install OpenCV, I have included a video of these two features working as well as a sample image and video generated. The latter two can be found in the repository while the former can be found [here.](https://drive.google.com/file/d/14pIrOe6ubOoCJxEa-7GRSzMZT8bhgdGA/view?usp=sharing)
