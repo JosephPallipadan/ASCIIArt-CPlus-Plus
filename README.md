@@ -13,7 +13,7 @@ Only upto two levels of nesting are permitted. <br/>
 ```
 display (prints the current state of the canvas) 
 clear (clears the console) 
-undo (reverts to the previous state of the pen/board, when used after a loop the last statement of the loop is undone) 
+undo (reverts to the previous state of the pen/board, when used after a loop the last statement executed by the loop is undone) 
 ```
 
 The final change was the addition of the ASCII image generator and accompanying time lapse video. This was accomplished with OpenCV and since this does not come pre installed on most environments, I have commented out the code that pertains to it. They exist as just functions which can be called. If OpenCV is installed, they will be easily runnable. <br/> 
